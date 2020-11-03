@@ -26,7 +26,6 @@ sed -i 's/openjdk-8-jdk/openjdk-11-jdk/g' ./install-dependencies-bionic
 ./install-dependencies-bionic --exclude-qt-sdk
 
 # Run common environment preparation scripts
-
 cd /tmp/rstudio-$VERS/dependencies/common/
 #./install-common
 #./install-gwt
